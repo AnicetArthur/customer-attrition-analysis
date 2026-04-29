@@ -1,26 +1,57 @@
 # 📊 Analyse de l’attrition des clients bancaires
 
-## 📌 Présentation
+## 📌 Présentation du projet
 
-Ce projet analyse les données clients d’une banque pour comprendre et prédire l’attrition (churn).
+Ce projet a pour objectif d’analyser l’attrition (churn) des clients d’une banque afin d’identifier les facteurs expliquant leur départ et de construire des modèles prédictifs.
 
 ## 🎯 Objectifs
 
-* Identifier les clients à risque
-* Construire un modèle prédictif
-* Segmenter les clients
+* Comprendre le comportement des clients
+* Identifier les variables influençant l’attrition
+* Construire des modèles de prédiction
+* Segmenter les clients (clustering)
+* Réaliser une analyse financière (Tesla, Ford)
 
-## 🛠️ Outils
+## 📂 Structure du projet
 
-Python, Pandas, Scikit-learn, XGBoost
+* `notebooks/` : notebooks Jupyter (analyse + modèles)
+* `reports/` : rapport final du projet
 
-## 📂 Structure
+## ⚙️ Méthodologie
 
-* notebooks/
-* reports/
+* Analyse exploratoire des données (EDA)
+* Prétraitement des données
+* ACP (Analyse en Composantes Principales)
+* Clustering (K-means)
+* Modélisation :
 
-## 🚀 Lancer
+  * Régression logistique
+  * Random Forest
+  * XGBoost / LightGBM
+
+## 📈 Résultats
+
+* Identification des facteurs clés d’attrition
+* Modèles performants (ROC-AUC élevé)
+* Segmentation claire des clients
+
+## 📊 Analyse financière
+
+* Étude des actions Tesla et Ford
+* Analyse des tendances (moyennes mobiles, volatilité)
+
+## 🛠️ Technologies utilisées
+
+* Python
+* Pandas, NumPy
+* Scikit-learn
+* Matplotlib / Seaborn
+* XGBoost / LightGBM
+
+
+## 🚀 Lancer le projet
+
 
 pip install -r requirements.txt
 jupyter notebook
-# customer-attrition-analysis
+
