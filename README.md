@@ -2,7 +2,7 @@
 
 ## 📌 Présentation du projet
 
-Ce projet a pour objectif d’analyser l’attrition (churn) des clients d’une banque afin d’identifier les facteurs expliquant leur départ et de construire des modèles prédictifs.
+Ce projet a pour objectif d’analyser l’attrition (churn) des clients d’une banque afin d’identifier les facteurs expliquant leur départ et de construire des modèles prédictifs à l’aide de techniques de data science (EDA, ACP, clustering, machine learning).
 
 ## 🎯 Objectifs
 
